@@ -6,6 +6,9 @@
 }
 
 .container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(135deg, #1a5276, #6dd5fa);
@@ -16,7 +19,7 @@
     width: 100%;
     max-width: 540px;
     background: #fff;
-    margin: 100px auto 20px;
+    margin: 20px auto; /* Adjust the margin as needed */
     padding: 40px;
     border-radius: 10px;
 }
